@@ -12,11 +12,9 @@ int main(){
         cin>>arr[i];
         
     }
-    
     int q,l,r,v;
     cin>>q;
     cin>>l>>r>>v;
-
     while (q--)
     {
        for (int i =l; i <=r; i++)
@@ -38,14 +36,11 @@ int main(){
         cin>>arr[i]; //[1 2 3 4 5]
         
     }
-    
     int q;
     cin>>q;
-   
-
     while (q--)
     {
-        int q,l,r,v;
+        int l,r,v;
         cin>>l>>r>>v;  //l=2 ,r=3
         updated_arr[l]+=v; //[0 0 10 0 0]  
         updated_arr[r+1]-=v; //[0 0 10 0 -10]    
@@ -59,16 +54,9 @@ int main(){
     {
         cout<<arr[i]+updated_pointer[i]<<" ";
     }
-    
-    
-    
-    
-
 
     return 0;
 }
-
-
 
 /*
  Author : SALAH 

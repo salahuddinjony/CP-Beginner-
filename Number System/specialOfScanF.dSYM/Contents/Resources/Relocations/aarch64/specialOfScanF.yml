@@ -1,7 +1,0 @@
----
-triple:          'arm64-apple-darwin'
-binary-path:     '/Users/salahuddin/Documents/Programming meterials /CP Begainner coding/Number System/specialOfScanF'
-relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003EE4, symSize: 0x8C }
-  - { offsetInCU: 0x30ED, offset: 0x30ED, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003EE4, symSize: 0x8C }
-...

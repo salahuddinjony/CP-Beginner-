@@ -1,8 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    int a=9;
-    int b=10;
+    int a=3;
+    int b=3;
 
     cout<<(a & b)<<endl; //bitwise AND
     cout<<(a | b)<<endl; //bitwise OR
